@@ -8,6 +8,35 @@
           <h1>We help developers and businesses move to the cloud and grow in the cloud</h1>
 </section>
 
+      <section id = "section-why">
+      
+            
+      
+      
+      
+      
+      </section>
+      
+      
+      <section id ="section-about"
+      
+      
+      
+      
+      
+      </section>
+      
+      
+      
+      
+      <section id ="section-team">
+      
+      
+      
+      
+      
+      </section>
+
 
 
 
