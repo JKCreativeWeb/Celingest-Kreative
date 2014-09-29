@@ -1,0 +1,617 @@
+// ==========================================================================
+// Media Queries for Responsive Design
+// ==========================================================================
+
+@media only screen and (min-width: 480px) {
+    .top-slide {
+  h1 {padding:10% 10% 10% 10%;}}
+
+  .cols {
+    li {
+      &.op-separator { display: block;
+        &.op-four { display: none; }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  #top-slideshow {
+    .infoBlock { padding: 12% 20px 20px 20px;
+      h5 { font-size: 22px; font-family: font-light(); }
+      h4 { font-size: 24px; font-family: font-thin(); }
+    }
+  }
+
+  .cols {
+    &.n-five {
+      li { width: 33%;  }
+    }
+  }
+
+}
+
+
+@media only screen and (min-width: 650px) {
+  //DOMINIQUE----
+  .top-slide {
+h1 {padding:10% 10% 10% 10%; font-size: 28px;}
+}
+
+.wwd-section{
+  .light-p{font-size:16px;}
+  .black-p{font-size:18px;}
+}
+
+.www-celingest-content{
+  padding:10% 8% 10% 8%;
+h1{font-size:24px;}
+}
+
+//PROJECTS WEBAPPS PAGE
+.top-slide{
+  .logo-text-topslide{
+  padding-top:3%;
+img{max-width:300px;}
+.logo-text-title{font-size:26px; }
+.projects-btn{margin-top:3%; padding:10px 20px;}
+}
+}
+
+.projects-webapps-images{
+  .image-box{padding: 64px 15px 64px 15px;
+    .btn{display:none;}
+    .rollover-btn{display:inline-block;}
+}
+}
+//END DOMINIQUE
+
+  #top-slideshow {
+    .infoBlock { padding: 12% 20px 20px 20px;
+      h5 { font-size: 22px; }
+      h4 { font-size: 36px; letter-spacing: 4px; }
+      p { margin: 0 auto 35px auto; display: block; max-width: 70%; text-align: center; }
+    }
+  }
+
+  .cols {
+    &.n-five {
+      li { width: 25%;  }
+    }
+  }
+
+
+
+}
+@media only screen and (min-width: 1024px) {
+//DOMINIQUE----
+.top-slide {
+  margin-top: -110px;
+h1 {font-size:32px; padding-top:14%;}}
+
+  //SECTIONS WHATWEDO--------------------------- 
+.wwd-section{
+  padding-top:6%;
+  padding-bottom: 6%;
+  border-bottom: solid 1px #e6e6e6;
+  div{width: cp(990px,1720px);
+    display: inline-block;}
+  img{width: cp(712px,1720px); vertical-align: top; max-width:500px; padding-left:20px; display: inline-block;}
+  .light-p{font-size:18px;}
+  .black-p{font-size:21px;}
+}
+
+  .uneven{
+.img-top{display:none;}
+.img-bottom{display:inline-block;}
+}
+
+.even{
+  .img-bottom{display:none;}
+}
+
+.covervid-video{
+display:block;
+}
+
+#amazon-section{padding:0;
+position:relative;
+}
+
+.amazon-content{
+  width:100%;
+  padding:35px 6% 20px 6%;
+  position:absolute; top:40px;
+  img{max-width:300px;}
+  p{padding-top:40px; font-size:20px;}
+}
+
+.www-celingest-content{
+  padding:10% 14% 10% 14%;
+h1{font-size:28px;}
+h2{width:100%;}
+}
+
+#we-manage-section{
+  h1{font-size: 24px;}
+}
+
+.image-box{
+  max-width: 420px;
+  padding: 10% 20px 20% 20px;
+  height:500px;
+}
+
+
+.we-manage-rollover-box{
+  max-width: 420px;
+  height:500px;
+}
+
+//PROJECTS WEBAPPS PAGE --- DOMINIQUE ---
+.top-slide{
+  .logo-text-topslide{padding-top:10%;
+    img{max-width:350px;}
+    
+    .projects-btn{margin-top:0%; padding:20px 55px; font-size:18px;}
+}
+}
+
+
+#projects-webapps-section{
+  h2{font-size:24px; padding-left:15%; padding-right:15%;}
+
+}
+.projects-webapps-images{
+
+.image-box{
+  max-width: 420px;
+padding-top:cp(248,3615);
+  height:420px;
+img{max-width:328px;}
+}
+
+.projects-webapps-rollover-box{
+//padding:70px 4% 75px 4%;
+height:420px;
+h1{padding-top:70px; margin:0px; font-size:26px;}
+p{padding:0 6%; font-size:26px;}
+
+.rollover-btn{top: 263px; padding:20px 30px; width:269px; font-size:18px;}
+
+}
+}
+
+
+
+
+
+.categories-small{display:none;}
+
+.categories-big{
+  display: block;
+
+  padding-left:cp(45,1920);
+  padding-right:cp(45,1920);
+  //110
+li{
+    display:inline-block;
+    padding:0px;
+    text-align: center;
+    vertical-align: middle;
+    height:159px;
+    width:cp(285,1720);
+    //275
+    border-bottom:none;
+    line-height:24.5px;
+
+a{font-size:16px;}
+
+.border{height:90px;
+    //position:absolute;
+
+    // width:160px;
+    width: 100%;
+    display: block;
+    margin-top:36px;
+    padding-top:21.5px;
+    padding-bottom:30px;
+    
+    border-right:1px #ebebeb solid;
+    &.hide-border { border: none;}
+  }
+}
+}
+
+
+
+//END DOMINIQUE
+
+
+
+  html, body { font-size: 18px; }
+
+  .wrap { padding: 0 2%; }
+
+  section { padding: 90px 0; text-align: center;
+    .title { font-size: 18px; margin-bottom: 4px; }
+    h1 { font-size: 36px; margin-bottom: 20px;
+      span { font-size: 18px; margin-bottom: 4px; letter-spacing: 0; }
+    }
+    h2 { font-size: 26px; width: cp(900px,1720px); margin: 0 auto; font-family: font-light(); margin-bottom: 80px; }
+    .btn { }
+  }
+
+  .btn { font-size: 16px; padding: 16px 26px; }
+
+  .cols { margin-bottom: 90px;
+    &.n-five {
+      li { width: 20%; }
+    }
+  }
+
+  ul.text-list {
+    li { font-size: 15px;
+      strong { font-size: 18px; }
+    }
+  }
+
+  .rsArrow {
+    &.rsArrowLeft { left: 1.5%; }
+    &.rsArrowRight { right: 1.5%; }
+  }
+
+  // HEADER
+
+  #header { padding: 55px 0 0 0; height: 110px;
+
+    //.wrap { padding: 0 2%; }
+
+    #logo { float: left; width: 205px; height: 41px; margin: 0; background: transparent url("../img/layout/sprite.svg") no-repeat 0 0;
+      img { display: none; }
+    }
+
+    ul { float: right; padding: 10px 0;
+      li { display: inline-block; padding: 0 6px; border: none;
+        a { font-size: 17px; padding: 0 0 6px 0; color: #fff;
+          &:hover { border-bottom: 1px solid rgba(255,255,255,0.3); }
+        }
+      }
+    }
+    #lang { padding: 0;
+      ul { margin-left: 10px; padding-left: 10px; border-left: 1px solid rgba(255, 255, 255, 0.1);
+       li {
+          a { padding: 0 0 10px 0; }
+        }
+      }
+    }
+
+    &.fixed { height: 64px; padding-top: 8px;
+      #logo { background-position: 0 -100px;}
+      ul { padding: 8px 0;
+        li {
+          a { padding-bottom: 8px; border-color: #000; }
+        }
+      }
+      #lang {
+        ul { border-color: rgba(0,0,0,0.1); }
+      }
+    }
+    #nav-box { position: relative; background: none; display: block; padding: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+    #nav-button { display: none; }
+  }
+
+
+  // TOP SLIDESHOW
+  #top-slideshow { margin-top: -110px;
+    .infoBlock { text-align: left; padding: cp(170px,1040px) 0 0 cp(750px,1720px);
+      h5, h4, p { width: 85%;}
+      h5 { margin-bottom: 15px; text-align: left; font-size: 26px; }
+      h4 { text-transform: uppercase; text-align: left; margin-bottom: 4px;
+        &+a { margin-top: 35px; }
+        &+p { margin-top: 20px; }
+      }
+      p { margin: 0 0 25px 0; font-size: 16px; display: block; max-width: 100%; text-align: left; }
+      a { text-transform: uppercase; }
+    }
+    .rsNav, .rsArrow { display: block !important; }
+
+
+    .rsArrow {
+      .rsArrowIcn { background-position: -700px -200px; width: 54px; height: 106px;
+        &:hover { background-position: -700px -400px; }
+      }
+      &.rsArrowRight {
+        .rsArrowIcn { background-position: right -200px;
+          &:hover { background-position: right -400px; }
+        }
+      }
+    }
+
+    #amazon-info { position: absolute; z-index: 500; width: 100%; margin-top: -120px; overflow: hidden; border: none; padding: 0; text-align: left;
+      p, a { display: block; float: left; }
+      p { width: cp(650px,1720px); padding-left: 20px; color: #fff; font-size: 14px; font-family: font-light(); text-align: left; }
+    }
+  }
+
+  // SOLUTIONS
+  #solutions {
+    h1 { font-size: 36px;
+      span { font-size: 18px; letter-spacing: 0; }
+    }
+    .cols { margin-bottom: 30px;
+      .solutions-img { margin-bottom: 25px;
+        img { width: 70%; }
+      }
+      .solution-info { opacity: 0; }
+      h4 { margin-bottom: 15px; font-size: 26px; }
+      p { width: 85%; margin: 0 auto; }
+      &.n-four {
+        li { width: 25%; padding: 0; }
+      }
+    }
+  }
+
+  // PEOPLE
+  #people {
+    h2 { font-size: 26px; }
+    .cols {
+      img { width: 100%; max-width: 250px; }
+      li { height: 185px; border-left: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6;
+        &.first { border-left: none; }
+        &.last-line { border-bottom: none;}
+      }
+    }
+  }
+
+  #people-comments {
+    #comments-slider { padding-top: 120px;
+      .infoBlock { padding: 0; }
+      .rsContent { width: cp(1120px,1720px); margin: 0 auto; overflow: hidden; text-align: left; min-height: 380px;
+        .people-img { width: cp(300px, 1350px); float: left; text-align: right;
+          img { width: auto; }
+        }
+        .people-info { width: cp( 990px,1350px); float: right; font-size: 26px;
+          p { text-align: left;
+            &.people-name { font-size: 22px; }
+            &.people-position { font-size: 16px; }
+          }
+        }
+      }
+      .rsBullets { top: 10px; }
+      .rsArrow {
+        &.rsArrowLeft { left: 5%; }
+        &.rsArrowRight { right: 5%; }
+
+        .rsArrowIcn { background-position: -700px -200px; width: 54px; height: 106px;
+          &:hover { background-position: -700px -400px; }
+        }
+        &.rsArrowRight {
+          .rsArrowIcn { background-position: right -200px;
+            &:hover { background-position: right -400px; }
+          }
+        }
+
+      }
+    }
+  }
+
+  // WE ARE CELINGEST
+  #we-are {
+    .cols { padding: 50px 0 0 0;
+      li { width: 50%; padding: 0;
+        .weare-img { margin: 0 0 60px 0; padding: 0; }
+        img { max-width: 350px; width: auto; }
+        p { font-size: 24px; font-family: font-light(); }
+      }
+    }
+  }
+
+  // NEWS
+  #news {
+    h1 { margin-bottom: 80px;}
+    .cols {
+      li { width: cp( 1050px, 1575px);
+        &+li { width: cp( 420px, 1575px); float: right; }
+      }
+    }
+    #list-blog-articles { width: cp( 1050px, 1575px); padding: 0; }
+    .blog-list { padding: 0;
+      li { width: 100%; padding-bottom: 120px;
+        &+li {}
+        .blog-aux { width: 25%; float: left; padding: 8px 30px 0;
+          img { display: inline-block; width: auto; }
+          p {
+            &.blog-author { display: inline-block; }
+          }
+        }
+        .blog-info { width: 74%; float: left;
+          h3 { font-size: 30px; margin-bottom: 15px; text-align: left; }
+          p { display: block; }
+        }
+      }
+    }
+
+
+    .tweets { padding-bottom: 80px;
+      li {
+        .tweet-img { width: 15%; float: left;
+          img { width: 100%; }
+        }
+        .tweet-info { width: 82%; float: right;
+          p { font-size: 15px; }
+        }
+      }
+    }
+    #list-tweets { display: inline-block; }
+  }
+
+  // QUESTIONS
+  #questions {
+    h2 { font-size: 36px; }
+    .btn { }
+  }
+
+
+  // FOOTER
+  #footer { padding-bottom: 120px;
+    .cols { margin-bottom: 60px;
+      li { text-align: left; }
+      &.n-four li { width: 25%; float: left; }
+    }
+    .wrap { padding: 90px cp(360px,1920px) 90px cp(360px,1920px); }
+    .phone { font-size: 24px; padding-top: 10px; display: block;}
+  }
+
+}
+
+@media only screen and (min-width: 1281px) {
+  //DOMINIQUE
+.top-slide {
+h1 {font-size:46px; }}
+//END DOMINIQUE
+
+  .btn { font-size: 18px; min-width: 250px; }
+
+.projects-webapps-images{
+padding-left:5%;
+padding-right:5%;
+}
+
+.categories{
+li{
+a{font-size:18px;}}}
+
+
+
+
+
+  #header {
+    ul {
+      li { padding: 0 12px;
+        a { font-size: 18px; padding: 0 0 10px 0; }
+      }
+    }
+    .wrap { padding: 0 5.2%; }
+  }
+
+  #top-slideshow {
+    .infoBlock { padding: cp(180px,1040px) 0 0 cp(650px,1720px);
+      h5 { font-size: 26px; }
+      h4 { font-size: 46px; letter-spacing: 4px; }
+    }
+    p { margin: 0 0 35px 0; font-size: 18px; }
+    #amazon-info {
+      p { width: cp(450px,1720px); }
+    }
+  }
+
+  #solutions {
+    .cols {
+      .solutions-img {
+        img { width: 75%; }
+      }
+      h4 { margin-bottom: 15px; font-size: 30px; }
+    }
+  }
+
+  #we-are {
+    .cols {
+      li {
+        p { font-size: 28px; }
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+//DOMINIQUE----
+.top-slide {
+h1 {font-size:56px;}}
+
+.wwd-section{ 
+  .light-p{font-size:21px;}
+  .black-p{font-size:28px;}
+}
+
+.amazon-content{padding: 7% 16% 20px 16%;
+p{padding-top:7%;
+  font-size: 24px;}
+img{max-width:329px;}}
+
+#we-manage-section{
+  h1{font-size: 28px;
+    padding-left:0; padding-right:0;}
+}
+
+.image-box{
+  
+  padding: 6% 20px 6% 20px;
+  height:520px;
+  }
+
+.we-manage-rollover-box{
+  height:520px;
+}
+
+
+.categories-big{
+  padding-left:cp(110,1920);
+  padding-right:cp(110,1920);
+li{width:cp(275,1720);
+a{font-size:18px;}
+}
+}
+
+
+#projects-webapps-section{
+  h2{ padding-left:26%; padding-right:26%;}
+}
+
+.projects-webapps-images{
+padding-left:6%;
+padding-right:6%;
+.projects-webapps-rollover-box{
+p{padding-left: 7%; padding-right: 7%;}
+}
+}
+
+.top-slide{
+  .logo-text-topslide{
+
+ img{max-width:400px;}
+.logo-text-title{font-size:56px; }
+.projects-btn{margin-top:3%;
+}
+}
+}
+
+
+//PROJECTSDETAIL
+.realtime-entertainment{
+  h2{ padding-left:22%; padding-right:22%;}
+}
+
+
+
+
+
+//END DOMINIQUE
+
+  // TOP SLIDESHOW
+  #top-slideshow {
+    .infoBlock { padding-left: cp(850px,1920px);
+      h4 { font-size: 56px; letter-spacing: 4px; }
+    }
+    #amazon-info {
+      p { font-size: 16px;}
+    }
+  }
+
+  #people-comments {
+    #comments-slider {
+      .rsArrow { top: 40%; }
+    }
+  }
+}

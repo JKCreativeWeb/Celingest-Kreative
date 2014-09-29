@@ -1,0 +1,20 @@
+// Include fonts using mixin
+
+@include font-face(Lato-Thin, '../fonts/LatoLatinThin-Regular');
+@include font-face(Lato-Light, '../fonts/LatoLatinLight-Regular');
+@include font-face(Lato-Regular, '../fonts/LatoLatin-Regular');
+@include font-face(Lato-Medium, '../fonts/LatoLatinMed-Regular');
+@include font-face(Lato-Bold, '../fonts/LatoLatin-Bold');
+
+p { font-family: 'Lato-Regular'; }
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; line-height: 1.2em;}
+
+// Address font sizes and margins set differently in IE 6/7.
+// Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+// and Chrome.
+h1 { font-size: 18px; font-family: 'Lato-Medium'; font-weight: normal; }
+h2 { font-size: 0.938em; font-family: 'Lato-Medium'; font-weight: normal;}
+h3 { font-size: 12px; font-family: 'Lato-Regular'; font-weight: normal; }
+h4 { font-size: 18px; font-weight: normal; }
+h5 { font-size: 16px; font-weight: normal; }
+h6 { font-size: 0.67em; font-weight: normal; }
